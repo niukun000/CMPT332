@@ -1,0 +1,51 @@
+/*
+Kun Niu
+kun869
+11242427
+*/
+
+/*
+Boru sun, 
+bos226, 
+11233036
+*/
+
+this part will include 4 functions
+
+main: it read input call parse function and create a parent_thread
+
+parse: check if inputs are valid and convert input into readable variables
+
+parent_thread: parent thread will genarate a number of child thread and go to sleep 
+	for a period of time then stop all child threads upon wake up
+
+child_thread: will run the function from 0 to n
+
+square: which solve the proble recursively
+
+
+##### Pseudocode
+defined variables(
+	Nunber-of-Child
+	deadline
+	max-integer)
+main(args, argv)
+	call parse_arguments()
+	create parent_thread(), 
+
+parse_arguments(args, argv)
+	parse arguments
+	validate arguemnts
+	print error message if anything goes wrong and exit
+	pass value to defined global variables
+
+parent_thread()
+	create Number-of-child with for loop and join them
+	sleep untill deadline then kill all running child threads and print out which one is unfinished
+ 
+child_thread()
+	run square(i) within a loop which iterate from 0 to max_integer
+	print out excuting time 
+
+square(i)
+	calculate the square of i
