@@ -1,3 +1,16 @@
+/*
+Kun Niu
+kun869
+11242427
+*/
+
+/*
+Boru sun, 
+bos226, 
+11233036
+*/
+
+
 we create list and node structure
 struct List {
 	*ListCount,
