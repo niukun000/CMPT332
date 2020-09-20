@@ -1,3 +1,15 @@
+/*
+Kun Niu
+kun869
+11242427
+*/
+
+/*
+Boru sun, 
+bos226, 
+11233036
+*/
+
 this part will include 4 functions
 
 main: it read input call parse function and create a parent_thread
