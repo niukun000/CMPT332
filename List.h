@@ -30,8 +30,6 @@ typedef struct List{
 	struct Node *head;
     struct Node *tail;
 	struct Node *current;
-	struct Node *first;
-	struct Node *last
 }List;
 
 
