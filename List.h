@@ -30,12 +30,10 @@ typedef struct List{
 	struct Node *head;
     struct Node *tail;
 	struct Node *current;
+	struct Node *first;
+	struct Node *last
 }List;
 
-
-int listIndex;
-
-int nodeIndex;
 
 /* 	List pool to store lists*/
 List listPool[LISTSIZE];
