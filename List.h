@@ -1,8 +1,15 @@
 /*
-Niu, Kun
+Kun Niu
 kun869
 11242427
 */
+
+/*
+Boru sun, 
+bos226, 
+11233036
+*/
+
 
 #ifndef LIST_H_
 #define LIST_H_
