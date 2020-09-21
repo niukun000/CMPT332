@@ -1,0 +1,210 @@
+commit 9d8294ba684e5871b4720f5294849e0d6181d158
+Author: Kun Niu (kun869) <kun869@mail.usask.ca>
+Date:   Sun Sep 20 22:25:05 2020 -0600
+
+    Upload New File
+
+commit 402f2c59cf8e099024edc973202162cd567c8882
+Merge: d416878 43711cf
+Author: BoruSun226 <bos226@usask.ca>
+Date:   Sun Sep 20 22:14:27 2020 -0600
+
+    On lab1-bos226: lab/lab1/log.txt partA.c
+
+commit 43711cf528e84f649665b1c033b9d67269bc30d3
+Author: BoruSun226 <bos226@usask.ca>
+Date:   Sun Sep 20 22:14:27 2020 -0600
+
+    index on lab1-bos226: d416878 Fix Makefile on undefined reference to pthread_create
+
+commit 35046c5ab8a1a59dc62e57f9ff2cf6b68c54cc31
+Author: Boru Sun (bos226) <bos226@mail.usask.ca>
+Date:   Sun Sep 20 21:40:00 2020 -0600
+
+    Update partA.c on arguments counter
+
+commit d416878eb49b8e5ad390344d1eedea0dedab40a5
+Author: BoruSun226 <bos226@usask.ca>
+Date:   Sun Sep 20 21:34:43 2020 -0600
+
+    Fix Makefile on undefined reference to pthread_create
+
+commit ebb4ec358cbad02ab56f7a7289b895ac714d9e5e
+Author: BoruSun226 <bos226@usask.ca>
+Date:   Sun Sep 20 21:15:40 2020 -0600
+
+    Add makefile and skeleton partA.c into lab1-bos226
+
+commit b774e37509b5c9d8b80697bcd94f3e3fab0b2eb6
+Merge: e64dc14 b34e970
+Author: BoruSun226 <bos226@usask.ca>
+Date:   Sun Sep 20 17:02:14 2020 -0600
+
+    Add A1 to lab1
+
+commit d228e6fa91c8817d7dee2198f0f09cc30349ae98
+Author: Kun Niu (kun869) <kun869@mail.usask.ca>
+Date:   Sun Sep 20 16:59:23 2020 -0600
+
+    Upload New File
+
+commit 5e96126fb9aa68242441a27459ac29bf1378d65e
+Author: Kun Niu (kun869) <kun869@mail.usask.ca>
+Date:   Sun Sep 20 16:53:24 2020 -0600
+
+    Upload New File
+
+commit b43d492a78e25836f1589f13db96887d26960161
+Author: Kun Niu (kun869) <kun869@mail.usask.ca>
+Date:   Sun Sep 20 16:53:14 2020 -0600
+
+    Upload New File
+
+commit 4ec767b67d777bcfbbb8aa13557288210bad91d1
+Author: Kun Niu (kun869) <kun869@mail.usask.ca>
+Date:   Sun Sep 20 16:52:55 2020 -0600
+
+    Upload New File
+
+commit e64dc14ce070153d9bf6983811262df9a2d4b51b
+Author: BoruSun226 <bos226@usask.ca>
+Date:   Sun Sep 20 16:51:34 2020 -0600
+
+    Add files for list.a
+
+commit 74f160bfefd9ddb8708be7c5bf29df7c2c473d00
+Author: Kun Niu (kun869) <kun869@mail.usask.ca>
+Date:   Sun Sep 20 16:38:53 2020 -0600
+
+    Update List.h
+
+commit 13f57591192005dd0c67ce6ef855df30b644f492
+Author: Kun Niu (kun869) <kun869@mail.usask.ca>
+Date:   Sun Sep 20 16:35:25 2020 -0600
+
+    Update List.h
+
+commit a07c818356bb8c7251e2b0d1c3ea6d7fb7e1a6ba
+Merge: 1a3c6f5 36d2c17
+Author: Kun Niu (kun869) <kun869@mail.usask.ca>
+Date:   Sun Sep 20 16:12:38 2020 -0600
+
+    Merge branch 'assignments' into 'master'
+    
+    Assignments
+    
+    See merge request dwm138/group37!1
+
+commit 36d2c17931bf69f66eb3e7873149deecb366a0e0
+Author: Kun Niu (kun869) <kun869@mail.usask.ca>
+Date:   Sun Sep 20 16:10:40 2020 -0600
+
+    Update PartC.design.txt
+
+commit 0482e10bf230a0401ccd1c6ed23b206bf7ab90f0
+Author: Kun Niu (kun869) <kun869@mail.usask.ca>
+Date:   Sun Sep 20 16:10:24 2020 -0600
+
+    Update PartA.h
+
+commit 89d9d7368daf0195e9c3d7c7b676f7e9cd27b5e2
+Author: Kun Niu (kun869) <kun869@mail.usask.ca>
+Date:   Sun Sep 20 16:10:10 2020 -0600
+
+    Update PartA.design.txt
+
+commit 844a0c967cecde13400b1b4d3fead24cf56aa3d7
+Author: Kun Niu (kun869) <kun869@mail.usask.ca>
+Date:   Sun Sep 20 16:09:51 2020 -0600
+
+    Update PartA.c
+
+commit b5b73641cdd64ccf6f644c8b7d52237a51bbde37
+Author: Kun Niu (kun869) <kun869@mail.usask.ca>
+Date:   Sun Sep 20 16:09:29 2020 -0600
+
+    Update List.h
+
+commit 7e084b9aae7ddf8c3c0a6fd69fd54cca56e9f62f
+Author: Kun Niu (kun869) <kun869@mail.usask.ca>
+Date:   Sun Sep 20 16:03:11 2020 -0600
+
+    Upload New File
+
+commit 6c1dd9369787eb97ca2b2a23eb81bce36ca3e7ff
+Author: Kun Niu (kun869) <kun869@mail.usask.ca>
+Date:   Sun Sep 20 16:01:32 2020 -0600
+
+    Upload New File
+
+commit 98dc2feb6429962459794234c733e38059f6667c
+Author: Kun Niu (kun869) <kun869@mail.usask.ca>
+Date:   Sun Sep 20 16:01:02 2020 -0600
+
+    Upload New File
+
+commit 82027720f94e495adb05e24c9c48915de51c790f
+Author: Kun Niu (kun869) <kun869@mail.usask.ca>
+Date:   Sun Sep 20 15:59:43 2020 -0600
+
+    Upload New File
+
+commit a4f96ba5c5c415fc64b3fbf4ff1a3b10d5b0591a
+Author: Kun Niu (kun869) <kun869@mail.usask.ca>
+Date:   Sun Sep 20 15:59:23 2020 -0600
+
+    Upload New File
+
+commit b34e970e15173f5eeb73843b27c472646faae2b7
+Author: Kun Niu (kun869) <kun869@mail.usask.ca>
+Date:   Sun Sep 20 15:58:52 2020 -0600
+
+    Upload New File
+
+commit 4b82be6b0aef33788acadb6c6d879ae7a326ce78
+Author: Kun Niu (kun869) <kun869@mail.usask.ca>
+Date:   Thu Sep 17 13:57:36 2020 -0600
+
+    Upload New File lab1.tar
+
+commit 2a7dcb0c7cd97c91af3b12a6f1085e7beb33eb8c
+Author: BoruSun226 <bos226@usask.ca>
+Date:   Wed Sep 16 16:56:36 2020 -0600
+
+    add tar file for lab1 into lab1-bos226
+
+commit d9e068fda6bf525fead627ad8f652714b9c5b4fd
+Author: BoruSun226 <bos226@usask.ca>
+Date:   Wed Sep 16 16:45:26 2020 -0600
+
+    add log.txt for lab1 to lab1-bos226 branch
+
+commit 8b568317b00d9870795d73b1c78b4f7235c8834f
+Author: BoruSun226 <bos226@usask.ca>
+Date:   Wed Sep 16 16:37:24 2020 -0600
+
+    commit files for lab1 into lab1-bos226 branch
+
+commit 1a3c6f56374b4c41e7d19960bdcbd23e077d25cb
+Author: Kun Niu (kun869) <kun869@mail.usask.ca>
+Date:   Wed Sep 16 11:41:56 2020 -0600
+
+    Upload New File
+
+commit 402637ae1d8ea18aa0bbf4a0449dde9ef9b98413
+Author: Kun Niu (kun869) <kun869@mail.usask.ca>
+Date:   Tue Sep 15 14:22:10 2020 -0600
+
+    Update group-info.txt
+
+commit 36ff15041538ccc76f7abb724d360f9909117041
+Author: serenasun999 <38842425+serenasun999@users.noreply.github.com>
+Date:   Mon Sep 14 09:12:49 2020 -0600
+
+    add group-info.txt
+
+commit 23a64e79c92954d45fbc019eb3b86c7aa304e6fe
+Author: Dwight Makaroff (dwm138) <makaroff@cs.usask.ca>
+Date:   Wed Sep 9 11:56:08 2020 -0600
+
+    Add README.md
