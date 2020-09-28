@@ -1,0 +1,58 @@
+/*
+Kun Niu
+kun869
+11242427
+*/
+
+/*
+Boru sun, 
+bos226, 
+11233036
+*/
+
+Testing Plan for PartA Pthreads
+
+1. Test Valid Input via parse() function
+Expectation: User input 3 integer as arguments which are number_of_child, deadline and
+number_of_squares. If there is one invalid input in arguments, program prints out an
+error message and exit the program immediately.
+Output: 
+	the number of threads must be greater than 0; or 
+	the deadline time must be greater than 0s; or
+	the max integer must be positive integers;
+	
+// the maximum square number can be handled by the program
+// How to check memory upper-bound?
+	
+	
+2. Test Create() call in parent_thread and child_thread functions
+Expectation: After Create() get invoked by caller, if it fails, program prints out an
+error message. If the error sent from child, then print child error and exit the program, 
+otherwise it prints parent error and exit the program. If Create() call succeed, the program prints out
+Creating thread succeed.
+Output:
+	Child error or parent error; or
+	Creating thread succeed;
+	
+	
+3. Test How many times Square() function has been invoked in each child thread until
+deadline reached
+Expectation: For each child thread, a couter t will be used to calculate how many times that
+Square() function has been invoked. Comparing couter t with a couter i which is
+used in for loop to keep invoking Square() function recursively. If t and i have same value
+then print ture, otherwise print false.
+Output:
+	true or false
+	
+	
+4. Test a global array variable which contains information about all uncompleted 
+child_threads' information.
+Expectation: Test this array is not empty or Null after child_threads get created and run
+Square() function. If array is not empty, program prints out uncompleted child_threads' 
+information. Otherwise, program prints out all child_threads are completed.
+Output:
+	all child_threads are completed; or
+	uncompleted child_threads' information // (PID and counters for Square(i))
+	
+	
+	
