@@ -1,0 +1,24 @@
+/*
+Kun Niu
+kun869
+11242427
+*/
+
+/*
+Boru sun, 
+bos226, 
+11233036
+*/
+
+we will start by testing create lists
+
+create first list and check if its been created by checking the return value;
+
+if list is been sucessfully created
+continue to create lists to check the maxnumber of lists we can create is the same as our boundry
+then we check if we can insert an item into the empty list 
+then insert into a list with 1 or more items,
+then try to insert to list head of a list with 1 or more items
+then insert to list tail of a list with 1 or more items
+
+we do same checkings for all other operations;
