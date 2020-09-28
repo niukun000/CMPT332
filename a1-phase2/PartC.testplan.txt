@@ -25,14 +25,14 @@ Output:
     failed to create: the max number of lists you can create is 5, you have exceed the limit
 
 2. Then we check if we can insert an item into the empty list
-Expecation: In group_test file, insert an item to an empty list. If insert succeed, the program prints out item
+Expectation: In group_test file, insert an item to an empty list. If insert succeed, the program prints out item
 X added. Otherwise the program prints out failed to add in an empty list.
 Output:
     item X added; or
     failed to add in an empty list;
 
 3. Then test on inserting item into a non-empty list which contains 1 or more items (insert between head and tail)
-Expecation: In group_test file, insert an item to an non-empty list between head pointer and tail pointer. If 
+Expectation: In group_test file, insert an item to an non-empty list between head pointer and tail pointer. If 
 insert succed, the program prints out item X is inserted into list and prints out current item, content of 
 head pointer and content of tail pointer. Otherwise the program prints out failed to insert item X.
 Output:
@@ -41,7 +41,7 @@ Output:
     failed to insert item X;
 
 4. Then test on inserting item to head of a list which contains 1 or more items
-Expecation: In group_test file, insert an item to an non-empty list at head positon. If insert succeed,
+Expectation: In group_test file, insert an item to an non-empty list at head positon. If insert succeed,
 the program prints out item X is inserted into list and prints out item X as head and current. Otherwise the program
 prints out failed to insert item X.
 Output:
@@ -50,7 +50,7 @@ Output:
     fialed to insert item X;
 
 5. Then test on inserting item to tail of a list which contains 1 or more items
-Expecation: In group_test file, insert an item to an non-empty list at tail positon. If insert succeed,
+Expectation: In group_test file, insert an item to an non-empty list at tail positon. If insert succeed,
 the progam prints out item X is inserted into list and prints out item X as tail and current. Otherwise the program
 prints out failed to insert item X.
 Output:
