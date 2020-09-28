@@ -1,0 +1,419 @@
+bos226@tux6:~/CMPT332/group37/a1-phase2> ./PartA1 1 -4 5000
+1the deadline time must be greater than 0sbos226@tux6:~/CMPT332/group37/a1-phase2> ./PartA1 1 4 -5000
+1the max integer must be possitive integersbos226@tux6:~/CMPT332/group37/a1-phase2> ./PartA1 -1 4 5000
+-1the number of threads is -1 must be greater than 0bos226@tux6:~/CMPT332/group37/a1-phase2> 
+bos226@tux6:~/CMPT332/group37/a1-phase2> ./PartA1 3 4 5000
+3(null)parent:
+parse_argus success failed
+i am in parent thread
+3 threads will be created
+creating 0
+child 2 starting
+1child finished
+0 child threads has been created
+creating 1
+child 2 starting
+1 child threads has been created
+creating 2
+2child finished
+child 3 starting
+2 child threads has been created
+3child finished
+
+exiting threads
+
+
+bos226@tux6:~/CMPT332/group37/a1-phase2> ./PartA2 -2 3 4
+the number of threads must be greater than 0bos226@tux6:~/CMPT332/group37/a1-phase2> ./PartA2 2 3 -4
+the max integer must be possitive integersbos226@tux6:~/CMPT332/group37/a1-phase2> ./PartA2 2 -3 4
+the deadline time must be greater than 0sbos226@tux6:~/CMPT332/group37/a1-phase2> ./PartA2 4 2 5000000
+Exectuing parse_argus succeed 
+Created a new parent thread (354137856)... 
+
+IN Parent_thread 
+Creating child thread, Number of Thread 4 
+Created a new child thread (345745152)... 
+
+IN CHILD_THREAD
+Child 345745152 starts 
+Created a new child thread (268322560)... 
+
+IN CHILD_THREAD
+Child 268322560 starts 
+Created a new child thread (259929856)... 
+
+IN CHILD_THREAD
+Child 259929856 starts 
+Created a new child thread (251537152)... 
+
+IN CHILD_THREAD
+Child 251537152 starts 
+
+Child thread 259929856 stops at 29003 
+The number of second for child thread to run is 2 
+
+Child thread 268322560 stops at 28960 
+The number of second for child thread to run is 2 
+
+Child thread 345745152 stops at 28968 
+The number of second for child thread to run is 2 
+
+Child thread 251537152 stops at 28936 
+The number of second for child thread to run is 2 
+
+bos226@tux6:~/CMPT332/group37/a1-phase2> ./PartA2 50 2 50000
+Exectuing parse_argus succeed 
+Created a new parent thread (2794747648)... 
+
+IN Parent_thread 
+Creating child thread, Number of Thread 50 
+Created a new child thread (2786354944)... 
+
+IN CHILD_THREAD
+Child 2786354944 starts 
+Created a new child thread (2777851648)... 
+
+IN CHILD_THREAD
+Child 2777851648 starts 
+Created a new child thread (2769458944)... 
+
+IN CHILD_THREAD
+Child 2769458944 starts 
+Created a new child thread (2761066240)... 
+
+IN CHILD_THREAD
+Child 2761066240 starts 
+Created a new child thread (2684352256)... 
+
+IN CHILD_THREAD
+Child 2684352256 starts 
+Created a new child thread (2675959552)... 
+
+IN CHILD_THREAD
+Child 2675959552 starts 
+Created a new child thread (2667566848)... 
+
+IN CHILD_THREAD
+Child 2667566848 starts 
+Created a new child thread (2659174144)... 
+
+IN CHILD_THREAD
+Child 2659174144 starts 
+Created a new child thread (2650781440)... 
+
+IN CHILD_THREAD
+Child 2650781440 starts 
+Created a new child thread (2642388736)... 
+
+IN CHILD_THREAD
+Child 2642388736 starts 
+Created a new child thread (2633996032)... 
+
+IN CHILD_THREAD
+Child 2633996032 starts 
+Created a new child thread (2625603328)... 
+
+IN CHILD_THREAD
+Child 2625603328 starts 
+Created a new child thread (2617210624)... 
+
+IN CHILD_THREAD
+Child 2617210624 starts 
+Created a new child thread (2608817920)... 
+
+IN CHILD_THREAD
+Child 2608817920 starts 
+Created a new child thread (2600425216)... 
+
+IN CHILD_THREAD
+Child 2600425216 starts 
+Created a new child thread (2592032512)... 
+
+IN CHILD_THREAD
+Child 2592032512 starts 
+Created a new child thread (2583639808)... 
+
+IN CHILD_THREAD
+Child 2583639808 starts 
+Created a new child thread (2575247104)... 
+
+IN CHILD_THREAD
+Child 2575247104 starts 
+Created a new child thread (2566854400)... 
+
+IN CHILD_THREAD
+Child 2566854400 starts 
+Created a new child thread (2558461696)... 
+
+IN CHILD_THREAD
+Child 2558461696 starts 
+Created a new child thread (2550068992)... 
+
+IN CHILD_THREAD
+Child 2550068992 starts 
+Created a new child thread (2541676288)... 
+
+IN CHILD_THREAD
+
+IN CHILD_THREAD
+Child 2533283584 starts 
+Created a new child thread (2533283584)... 
+Child 2541676288 starts 
+Created a new child thread (2524890880)... 
+
+IN CHILD_THREAD
+Child 2524890880 starts 
+Created a new child thread (2516498176)... 
+
+IN CHILD_THREAD
+Child 2516498176 starts 
+Created a new child thread (2508105472)... 
+
+IN CHILD_THREAD
+Child 2508105472 starts 
+Created a new child thread (2499712768)... 
+
+IN CHILD_THREAD
+Child 2499712768 starts 
+Created a new child thread (2491320064)... 
+
+IN CHILD_THREAD
+Child 2491320064 starts 
+Created a new child thread (2482927360)... 
+
+IN CHILD_THREAD
+Child 2482927360 starts 
+Created a new child thread (2474534656)... 
+
+IN CHILD_THREAD
+Child 2474534656 starts 
+Created a new child thread (2466141952)... 
+
+IN CHILD_THREAD
+Child 2466141952 starts 
+Created a new child thread (2457749248)... 
+
+IN CHILD_THREAD
+Child 2457749248 starts 
+Created a new child thread (2449356544)... 
+
+IN CHILD_THREAD
+Child 2449356544 starts 
+Created a new child thread (2440963840)... 
+
+IN CHILD_THREAD
+Child 2440963840 starts 
+Created a new child thread (2432571136)... 
+
+IN CHILD_THREAD
+Child 2432571136 starts 
+Created a new child thread (2424178432)... 
+
+IN CHILD_THREAD
+Child 2424178432 starts 
+Created a new child thread (2415785728)... 
+
+IN CHILD_THREAD
+Child 2415785728 starts 
+Created a new child thread (2407393024)... 
+
+IN CHILD_THREAD
+Child 2407393024 starts 
+Created a new child thread (2399000320)... 
+
+IN CHILD_THREAD
+Child 2399000320 starts 
+Created a new child thread (2390607616)... 
+
+IN CHILD_THREAD
+Child 2390607616 starts 
+Created a new child thread (2382214912)... 
+
+IN CHILD_THREAD
+Child 2382214912 starts 
+Created a new child thread (2373822208)... 
+
+IN CHILD_THREAD
+Child 2373822208 starts 
+Created a new child thread (2365429504)... 
+
+IN CHILD_THREAD
+Child 2365429504 starts 
+Created a new child thread (2357036800)... 
+
+IN CHILD_THREAD
+Child 2357036800 starts 
+Created a new child thread (2348644096)... 
+
+IN CHILD_THREAD
+Child 2348644096 starts 
+Created a new child thread (2340251392)... 
+
+IN CHILD_THREAD
+Child 2340251392 starts 
+Created a new child thread (2331858688)... 
+Created a new child thread (2323465984)... 
+Created a new child thread (2315073280)... 
+Created a new child thread (2306680576)... 
+
+IN CHILD_THREAD
+Child 2315073280 starts 
+
+IN CHILD_THREAD
+Child 2323465984 starts 
+
+IN CHILD_THREAD
+Child 2306680576 starts 
+
+IN CHILD_THREAD
+Child 2331858688 starts 
+
+Child thread 2625603328 stops at 25177 
+
+
+
+
+Child thread 2786354944 stops at 25450 
+
+
+
+
+
+Child thread 2667566848 stops at 25032 
+The number of second for child thread to run is 2 
+
+
+Child thread 2323465984 stops at 18630 
+
+
+
+
+
+Child thread 2340251392 stops at 25284 
+
+
+Child thread 2592032512 stops at 25168 
+The number of second for child thread to run is 2 
+Child thread 2432571136 stops at 25260 
+The number of second for child thread to run is 2 
+
+Child thread 2583639808 stops at 24907 
+The number of second for child thread to run is 2 
+
+Child thread 2550068992 stops at 25281 
+The number of second for child thread to run is 2 
+
+Child thread 2466141952 stops at 25481 
+The number of second for child thread to run is 2 
+
+Child thread 2650781440 stops at 17264 
+The number of second for child thread to run is 2 
+
+Child thread 2558461696 stops at 24952 
+The number of second for child thread to run is 2 
+Child thread 2608817920 stops at 25023 
+The number of second for child thread to run is 2 
+
+Child thread 2600425216 stops at 24911 
+The number of second for child thread to run is 2 
+Child thread 2399000320 stops at 24717 
+The number of second for child thread to run is 2 
+
+Child thread 2533283584 stops at 25233 
+The number of second for child thread to run is 2 
+The number of second for child thread to run is 2 
+
+Child thread 2508105472 stops at 25137 
+The number of second for child thread to run is 2 
+
+Child thread 2499712768 stops at 25301 
+The number of second for child thread to run is 2 
+Child thread 2306680576 stops at 18816 
+The number of second for child thread to run is 2 
+
+Child thread 2633996032 stops at 25173 
+The number of second for child thread to run is 2 
+Child thread 2382214912 stops at 25169 
+The number of second for child thread to run is 2 
+
+Child thread 2541676288 stops at 24358 
+The number of second for child thread to run is 2 
+
+Child thread 2357036800 stops at 24413 
+The number of second for child thread to run is 2 
+Child thread 2365429504 stops at 25242 
+The number of second for child thread to run is 2 
+
+Child thread 2348644096 stops at 25234 
+Child thread 2575247104 stops at 24772 
+The number of second for child thread to run is 2 
+
+Child thread 2449356544 stops at 25156 
+The number of second for child thread to run is 2 
+
+Child thread 2566854400 stops at 26157 
+The number of second for child thread to run is 2 
+Child thread 2684352256 stops at 24961 
+The number of second for child thread to run is 2 
+
+Child thread 2642388736 stops at 23655 
+The number of second for child thread to run is 2 
+
+Child thread 2415785728 stops at 25592 
+The number of second for child thread to run is 2 
+Child thread 2457749248 stops at 25280 
+The number of second for child thread to run is 2 
+Child thread 2675959552 stops at 25048 
+The number of second for child thread to run is 2 
+The number of second for child thread to run is 2 
+
+Child thread 2524890880 stops at 25181 
+The number of second for child thread to run is 2 
+
+
+Child thread 2424178432 stops at 25622 
+The number of second for child thread to run is 2 
+Child thread 2769458944 stops at 25419 
+The number of second for child thread to run is 2 
+
+Child thread 2659174144 stops at 24737 
+The number of second for child thread to run is 2 
+The number of second for child thread to run is 2 
+
+Child thread 2315073280 stops at 16712 
+The number of second for child thread to run is 2 
+
+Child thread 2474534656 stops at 25227 
+The number of second for child thread to run is 2 
+
+Child thread 2331858688 stops at 17760 
+The number of second for child thread to run is 2 
+
+Child thread 2761066240 stops at 24924 
+The number of second for child thread to run is 2 
+
+Child thread 2440963840 stops at 24911 
+The number of second for child thread to run is 2 
+
+Child thread 2373822208 stops at 25060 
+The number of second for child thread to run is 2 
+
+Child thread 2390607616 stops at 25575 
+The number of second for child thread to run is 2 
+
+Child thread 2777851648 stops at 25416 
+The number of second for child thread to run is 2 
+
+Child thread 2491320064 stops at 24546 
+The number of second for child thread to run is 2 
+Child thread 2516498176 stops at 25134 
+The number of second for child thread to run is 2 
+The number of second for child thread to run is 2 
+The number of second for child thread to run is 2 
+Child thread 2407393024 stops at 25084 
+The number of second for child thread to run is 2 
+
+Child thread 2482927360 stops at 24466 
+The number of second for child thread to run is 2 
+Child thread 2617210624 stops at 25431 
+The number of second for child thread to run is 2 
