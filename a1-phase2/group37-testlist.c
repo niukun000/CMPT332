@@ -12,40 +12,104 @@ bos226,
 
 #include <stdio.h>
 #include <stdlib.h>
-
+#include <assert.h>
 #include "list.h"
 
-int printList(List * list){
-    List * l = list;
-    if (l->count == 0)
+void printList(List * list){
+    
+    if (list->count == 0)
     {
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
+        printf("empty list")  ;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
     }
-    l->current = list->head;
-    while (l-> current != NULL ){
-        printf("%s", (l->current)->item);
-        l->current = (l->current)->next;
+    else{
+        // Node * l = list->head;
+        long * h = (long* )((list->head)->next->item);
+        printf("%ld", *h);
+        long * c = (long* )((list->current)->item);
+        printf("%ld", *c);
+        // while (l-> next != NULL ){
+            long * t = (long* )((list->tail)->item);
+            printf("%ld", *t);
+            // l = l->next;
+        // }
     }
 }
 int main(int argc, char *argv[])
 {
+
+
     printf("create list\n");
     List *list1 = ListCreate();
-    int i = 1;
+    assert(list1 != NULL);
     // ListInsert(list1, &1)
-    // printf("ListAppend into an empty list\n");
+    // printf("ListAdd into an empty list\n");
     // int i = 1;
-    // ListAppend(list1, &i);
+    // ListAdd(list1, &i);
     // printf("ListAdd\n");
     // int i = 2;
-    ListAdd(list1, &i);
-    printList(list1);
-    int a = 2;
-    ListAdd(list1, &a);
-    int b = 3;
-    ListAdd(list1, &b);
-    printList(list1);
-    return 0;
-}
+    int failed = 0;
+    if (ListAdd(list1,  (void*)1) != 0)
+    {
+        printf("failed to add in a empty list\n");
+        failed++;
+    }
+    // printList(list1);
+    if (ListAdd(list1,  (void*)2) != 0)
+    {
+        printf("failed to add 2\n");
+        failed++;
+    }
+    // printList(list1);
+    if (ListAdd(list1,  (void*)3) != 0)
+    {
+        printf("failed 3\n ");
+        failed++;
+    }
 
+      if (ListInsert(list1,  (void*)4) != 0)
+    {
+        printf("failed 4\n ");
+        failed++;
+    }
+    if (ListInsert(list1,  (void*)5) != 0)
+    {
+        printf("failed 4\n ");
+        failed++;
+    }
+    if (ListPrepend(list1,  (void*)6) != 0)
+    {
+        printf("failed 4\n ");
+        failed++;
+    }
+
+    if (ListInsert(list1,  (void*)7) != 0)
+    {
+        printf("failed 7\n ");
+        failed++;
+    }
+    if (ListInsert(list1,  (void*)8) != 0)
+    {
+        printf("failed 4\n ");
+        failed++;
+    }
+        if (ListInsert(list1,  (void*)9) != 0)
+    {
+        printf("failed 4\n ");
+        failed++;
+    }
+        if (ListInsert(list1,  (void*)8) != 0)
+    {
+        printf("failed 4\n ");
+        failed++;
+    }
+    printf("did 10 operations %d failed\n ", failed);
+    // printList(list1);
+    // int a = 2;
+    // ListAdd(list1, &a);
+    // int b = 3;
+    // ListAdd(list1, &b);
+    // printList(list1);
+    // printnode();
+    
+}
  
