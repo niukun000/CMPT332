@@ -1,3 +1,57 @@
+commit c9742eca32aea6397e134ed204097bbf7477d742 (HEAD -> assignment, origin/assignment)
+Merge: dc18e9c 9823c22
+Author: BoruSun226 <bos226@usask.ca>
+Date:   Mon Sep 28 08:32:47 2020 -0600
+
+    Merge branch 'assignment' of https://git.cs.usask.ca/dwm138/group37 into assignment
+    Merge local branch
+
+commit dc18e9cdc6b6aad8e5f67c1a4b05a65239960497
+Author: BoruSun226 <bos226@usask.ca>
+Date:   Mon Sep 28 08:20:36 2020 -0600
+
+    add git-log.log into a1-phase2
+
+commit 9823c2222735e00ede2b69fb63745b3d3425524c
+Author: Boru Sun (bos226) <bos226@mail.usask.ca>
+Date:   Mon Sep 28 08:12:26 2020 -0600
+
+    Upload partB.bash
+
+commit a984567eff08c216f63d60c00de5e1b46fad59f0
+Author: Boru Sun (bos226) <bos226@mail.usask.ca>
+Date:   Mon Sep 28 08:11:13 2020 -0600
+
+    Update group37-testlist.c
+
+bos226@tux6:~/CMPT332/group37/a1-phase2> git log --all
+commit c9742eca32aea6397e134ed204097bbf7477d742 (HEAD -> assignment, origin/assignment)
+Merge: dc18e9c 9823c22
+Author: BoruSun226 <bos226@usask.ca>
+Date:   Mon Sep 28 08:32:47 2020 -0600
+
+    Merge branch 'assignment' of https://git.cs.usask.ca/dwm138/group37 into assignment
+    Merge local branch
+
+commit dc18e9cdc6b6aad8e5f67c1a4b05a65239960497
+Author: BoruSun226 <bos226@usask.ca>
+Date:   Mon Sep 28 08:20:36 2020 -0600
+
+    add git-log.log into a1-phase2
+
+commit 4c938a25e0c2d002d541a1d3399699182dcc44e8 (refs/stash)
+Merge: 6fb63e9 01620b8
+Author: BoruSun226 <bos226@usask.ca>
+Date:   Mon Sep 28 08:15:31 2020 -0600
+
+    WIP on lab2: 6fb63e9 Add files for a1-phase2 to assignment/a1-phase2
+
+commit 01620b8b6b44004cacbd2dabce69ffa4699292fd
+Author: BoruSun226 <bos226@usask.ca>
+Date:   Mon Sep 28 08:15:31 2020 -0600
+
+    index on lab2: 6fb63e9 Add files for a1-phase2 to assignment/a1-phase2
+    
 commit 972564c62c57a59221ebb476e34b85ebeeb4d0d2
 Author: BoruSun226 <bos226@usask.ca>
 Date:   Sun Sep 20 23:49:00 2020 -0600
