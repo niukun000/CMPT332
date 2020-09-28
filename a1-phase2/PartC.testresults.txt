@@ -1,0 +1,14 @@
+create list
+Got to procedure List create
+list created
+Got to procedure ListAdd
+Got to procedure ListAdd
+Got to procedure ListAdd
+Got to procedure ListInsert
+Got to procedure ListInsert
+Got to procedure ListPrepend
+Got to procedure ListInsert
+Got to procedure ListInsert
+Got to procedure ListInsert
+Got to procedure ListInsert
+did 10 operations 0 failed
