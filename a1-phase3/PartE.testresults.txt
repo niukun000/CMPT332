@@ -1,0 +1,78 @@
+/*
+Kun Niu
+kun869
+11242427
+*/
+
+/*
+Boru sun, 
+bos226, 
+11233036
+*/
+
+bos226@tux7:~/CMPT332/group37/a1-phase3> ./partE.bash
+/student/bos226/CMPT332/group37/a1-phase3->
+gee
+./partE.bash: line 11: gee: command not found
+/student/bos226/CMPT332/group37/a1-phase3->
+make
+gcc -c -g PartA1.c -I/student/cmpt332/pthreads -I.
+gcc -c -g square.c
+ar rv libsquare.a square.o
+ar: creating libsquare.a
+a - square.o
+gcc PartA1.o -L/student/cmpt332/pthreads/lib/Linuxx86_64 -L. -lpthreads -lsquare -o PartA1
+gcc -c -g PartA2.c -I/student/cmpt332/pthreads -I.
+gcc PartA2.o -L/student/cmpt332/pthreads/lib/Linuxx86_64 -L. -lpthread -lsquare -o PartA2
+gcc -g -std=gnu99 -Wall -pedantic  -c -o group37-testlist.o group37-testlist.c
+group37-testlist.c: In function ‘compareInteger’:
+group37-testlist.c:23:10: warning: unused variable ‘d’ [-Wunused-variable]
+   23 |     int *d = (int*)b;
+      |          ^
+group37-testlist.c:22:10: warning: unused variable ‘c’ [-Wunused-variable]
+   22 |     int *c = (int*)a;
+      |          ^
+gcc -c -g list_adders.c 
+ar rv liblist.a list_adders.o
+ar: creating liblist.a
+a - list_adders.o
+gcc -c -g list_removers.c
+ar rv liblist.a list_removers.o
+a - list_removers.o
+gcc -c -g list_movers.c
+ar rv liblist.a list_movers.o
+a - list_movers.o
+gcc group37-testlist.o -L. -llist -o group-testlist
+./partE.bash mkdir testFolder
+/student/bos226/CMPT332/group37/a1-phase3->
+ls
+group37-testlist.c  list_movers.o	    PartA2.c		    PartD.design.txt
+group37-testlist.o  list_removers.c	    PartA2.o		    PartD.testresults.txt
+group-testlist	    list_removers.o	    PartA2.testResults.txt  partE.bash
+liblist.a	    Makefile		    PartA.design.txt	    square.c
+libsquare.a	    PartA1		    PartA.testplan.txt	    square.h
+list_adders.c	    PartA1.c		    partB.bash		    square.o
+list_adders.o	    PartA1.o		    PartC.design.txt
+list.h		    PartA1.testResults.txt  PartC.testplan.txt
+list_movers.c	    PartA2		    PartC.testresults.txt
+/student/bos226/CMPT332/group37/a1-phase3->
+vim list.h      
+/student/bos226/CMPT332/group37/a1-phase3->
+make clean
+make[1]: Entering directory '/student/bos226/CMPT332/group37/a1-phase3'
+rm -rf *.o
+rm -rf *.a
+rm -rf PartA1
+rm -rf PartA2
+rm -rf group-testlist
+make[1]: Leaving directory '/student/bos226/CMPT332/group37/a1-phase3'
+/student/bos226/CMPT332/group37/a1-phase3->
+mkdir testPartE
+/student/bos226/CMPT332/group37/a1-phase3->
+cd testPartE
+/student/bos226/CMPT332/group37/a1-phase3/testPartE->
+ls
+/student/bos226/CMPT332/group37/a1-phase3/testPartE->
+cd ..
+/student/bos226/CMPT332/group37/a1-phase3->
+exit
