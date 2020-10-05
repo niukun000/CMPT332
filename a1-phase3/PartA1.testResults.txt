@@ -1,0 +1,24 @@
+bos226@tux6:~/CMPT332/group37/a1-phase2> ./PartA1 1 -4 5000
+1the deadline time must be greater than 0sbos226@tux6:~/CMPT332/group37/a1-phase2> ./PartA1 1 4 -5000
+1the max integer must be possitive integersbos226@tux6:~/CMPT332/group37/a1-phase2> ./PartA1 -1 4 5000
+-1the number of threads is -1 must be greater than 0bos226@tux6:~/CMPT332/group37/a1-phase2> 
+bos226@tux6:~/CMPT332/group37/a1-phase2> ./PartA1 3 4 5000
+3(null)parent:
+parse_argus success failed
+i am in parent thread
+3 threads will be created
+creating 0
+child 2 starting
+1child finished
+0 child threads has been created
+creating 1
+child 2 starting
+1 child threads has been created
+creating 2
+2child finished
+child 3 starting
+2 child threads has been created
+3child finished
+
+exiting threads
+
