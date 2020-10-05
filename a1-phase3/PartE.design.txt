@@ -1,0 +1,15 @@
+/*
+Kun Niu
+kun869
+11242427
+*/
+
+/*
+Boru sun, 
+bos226, 
+11233036
+*/
+
+For PartE design, we ask program to require user input in command line until user enter
+"exit" to exit the program. For each time the program asks an input, it will print current
+path.
