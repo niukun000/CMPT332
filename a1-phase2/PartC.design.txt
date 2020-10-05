@@ -1,0 +1,80 @@
+/*
+Kun Niu
+kun869
+11242427
+*/
+
+/*
+Boru sun, 
+bos226, 
+11233036
+*/
+
+we create list and node structure
+struct List {
+	Count,
+	*ListFirst,
+	*ListLast,
+	*ListCurr,
+	}
+struct Node {
+	*item,
+	*Next,
+	*Prev
+	}
+then statically allocate space for list and node as array
+
+we will have 4 different files for this part
+
+list.h include all thefunction names with comments
+LIST *ListCreate() makes a new, empty list, and returns its reference on success. Returns a NULL pointer on failure.
+int ListCount(list) returns the number of items in list.
+void *ListFirst(list) returns a pointer to the first item in list and makes the first item the current item.
+void *ListLast(list) returns a pointer to the last item in list and makes the last item the current one.
+void *ListNext(list) advances the list's current node by one, and returns a pointer to the new current item. If this operation attempts to advances the current item beyond the end of the list, a NULL pointer is returned.
+void *ListPrev(list) backs up the list's current node by one, and returns a pointer to the new current item. If this operation attempts to back up the current item beyond the start of the list, a NULL pointer is returned.
+void *ListCurr(list) returns a pointer to the current item in list.
+int ListAdd(list, item) adds the new item to list directly after the current item, and makes item the current item. If the current pointer is at the end of the list, the item is added at the end. Returns 0 on success, -1 on failure.
+int ListInsert(list, item) adds item to list directly before the current item, and makes the new item the current one. If the current pointer is at the start of the list, the item is added at the start.  Returns 0 on success, -1 on failure.
+int ListAppend(list, item) adds item to the end of list, and makes the new item the current one. Returns 0 on success, -1 on failure.
+int ListPrepend(list, item) adds item to the front of list, and makes the new item the current one. Returns 0 on success, -1 on failure.
+void *ListRemove(list) Return current item and take it out of list. Make the next item the current one.
+void ListConcat(list1, list2) adds list2 to the end of list1. The current pointer is set to the current pointer of list1. List2 no longer exists after the operation.
+void ListFree(list, itemFree) delete list. itemFree is a pointer to a routine that frees an item. It should be invoked (within ListFree) as: (*itemFree)(itemToBeFreed);
+void *ListTrim(list) Return last item and take it out of list. The current pointer shall be the new last item in the list.
+void *ListSearch(list, comparator, comparisonArg) searches list starting at the current item until the end is reached or a match is found. In this context, a match is determined by the comparator parameter. This parameter is a pointer to a routine that takes as its first argument an item pointer, and as its second argument comparisonArg. Comparator returns 0 if the item and comparisonArg don't match (i.e. didn't find it), or 1 if they do (i.e. found it). Exactly what constitutes a match is up to the implementor of comparator. If a match is found, the current pointer is left at the matched item and the pointer to that item is returned. If no match is found, the current pointer is left at the end of the list and a NULL pointer is returned.
+
+list_adders.c will contain
+
+LIST *ListCreate(){
+	create a list structure and return its pointer
+	List * list;
+	list->ListFirst = NULL;
+	list->ListLast = NULL;
+	list->ListCurr = NULL;
+	list->ListCount = 0;
+}
+int ListCount(list)
+int ListAdd(list, item){
+	create a Node structure and add into the list
+}
+int ListInsert(list, item)
+int ListAppend(list, item)
+int ListPrepend(list, item)
+void ListConcat(list1, list2)
+
+list_movers.c will contain following functions
+
+
+void *ListNext(list)
+
+void *ListPrev(list)
+void *ListFirst(list)
+void *ListLast(list)
+void *ListCurr(list)
+void *ListSearch(list, comparator, comparisonArg)
+
+list_removers.c will contain following functions
+void *ListRemove(list)
+void ListFree(list, itemFree)
+void *ListTrim(list)
