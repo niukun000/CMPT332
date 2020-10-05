@@ -1,0 +1,20 @@
+
+# Kun Niu
+# kun869
+
+
+
+# Boru sun, 
+# bos226, 
+# 11233036
+
+
+xv6 kernel is booting
+
+hart 1 starting
+hart 2 starting
+init: starting sh
+$ test_numprocs
+Inside Numprocs Test File
+Print from Parent
+Current Runnable process: 41$ 
