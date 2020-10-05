@@ -1,0 +1,72 @@
+create list1
+list created
+crreate list2list created
+create list 3list created
+create list 4list created
+create list 5list created
+append to empty list
+appending 1 to list3
+
+list items: 1	list current: 1 
+
+insert to empty list
+ inserting 1 to list 4
+
+list items: 1	list current: 1 
+
+prepend to empty list
+ prepending 3 to list 5
+
+list items: 3	list current: 3 
+
+delete from list with 1 item
+ removing from list4
+empty listremoving from empty listempty listtesting for list trim
+ trim from list with 1 item
+empty listtrmming from empty list
+testing for strings
+adding string into list2
+
+list items: my string	list current: my string 
+
+add to empty list
+adding 1
+
+list items: 1	list current: 1 
+
+adding 2
+list items: 1	2	list current: 2 
+
+adding 3
+list items: 1	2	3	list current: 3 
+
+inserting 4
+list items: 1	2	4	3	list current: 4 
+
+inserting 5
+list items: 1	2	5	4	3	list current: 5 
+
+prepending 6
+list items: 6	1	2	5	4	3	list current: 6 
+
+inserting 7
+list items: 7	6	1	2	5	4	3	list current: 7 
+
+inserting 8
+list items: 8	7	6	1	2	5	4	3	list current: 8 
+
+appending 9
+list items: 8	7	6	1	2	5	4	3	9	list current: 9 
+
+inserting 10
+list items: 8	7	6	1	2	5	4	3	10	9	list current: 10 
+
+trimming list
+list items: 8	7	6	1	2	5	4	3	10	list current: 10 
+
+removing current node
+list items: 8	7	6	1	2	5	4	3	list current: 3 
+
+
+did 10 operations 0 failed
+ empty listsearching for 2 from the list2 is not in the list
