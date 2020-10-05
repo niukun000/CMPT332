@@ -1,0 +1,39 @@
+Serenas-Air:diff serena$ diff xv6-riscv/kernel/syscall.c xv6-riscv-riscv/kernel/syscall.c
+107d106
+< extern uint64 sys_numprocs(void);
+131d129
+< [SYS_numprocs] sys_numprocs,
+Serenas-Air:diff serena$ diff xv6-riscv/kernel/syscall.h xv6-riscv-riscv/kernel/syscall.h
+23d22
+< #define SYS_numprocs 22
+Serenas-Air:diff serena$ diff xv6-riscv/kernel/proc.c xv6-riscv-riscv/kernel/proc.c
+687,698d686
+< 
+< int
+< numprocs(void)
+< {
+<     struct proc *p;
+<     int counter = 0;
+<     for(p = proc; p < &proc[NPROC]; p++){
+<         if(p->state == RUNNABLE){
+<             counter++;}
+<             }
+<         return counter;
+< }
+Serenas-Air:diff serena$ diff xv6-riscv/user/user.h xv6-riscv-riscv/user/user.h
+26d25
+< int numprocs(void);
+Serenas-Air:diff serena$ diff xv6-riscv/user/usys.pl xv6-riscv-riscv/user/usys.pl
+39,40d38
+< entry("numprocs");
+< 
+Serenas-Air:diff serena$ diff xv6-riscv/kernel/defs.h xv6-riscv-riscv/kernel/defs.h 
+107d106
+< int		numprocs(void);
+Serenas-Air:diff serena$ diff xv6-riscv/kernel/sysproc.c xv6-riscv-riscv/kernel/sysproc.c 
+98,102d97
+< 
+< uint64
+< sys_numprocs(void)
+< {return numprocs();
+< }
