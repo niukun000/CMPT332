@@ -1,0 +1,19 @@
+/*
+Kun Niu
+kun869
+11242427
+*/
+
+/*
+Boru sun, 
+bos226, 
+11233036
+*/
+
+
+We create a custom system call named numprocs(). 
+In order to do this we define SYS_numprocs 22 in syscall.h, make changes in syscall.c,
+and add int numprocs(void) in user.h. We use struct defined in proc.c instead of sysproc.c,
+and define a counter to track how many current process has RUNNABLE state. Also, for our
+test numprocs, we use fork twice to create child processes, and let it print current
+runnable processes to check our numproc() system call function.

@@ -1,0 +1,63 @@
+/*
+Kun Niu
+kun869
+11242427
+*/
+
+/*
+Boru sun, 
+bos226, 
+11233036
+*/
+
+Testing Plan for PartC List
+
+1. We will start by testing create lists
+Expectation: In group_test file, creating first list. By checking the return value to check if its been created.
+If the return value is list, then create succeed. Otherwise if return value is NULL then create failed. Also in 
+terminal it prints out create suceed or failed to create list. If list is been successfully created, continue to
+create lists to check if the maximum number of lists we can create is the same as our boundary(5). If out of 
+boudnary, program prints out error message as failed to create: the max number of lists you can create is 5, you 
+have excced the limit and return.
+Output:
+    create succeed; or
+    failed to create list; or
+    failed to create: the max number of lists you can create is 5, you have exceed the limit
+
+
+2. Then we check if we can insert an item into the empty list
+Expecation: In group_test file, insert an item to an empty list. If insert succeed, the program prints out item
+X added. Otherwise the program prints out failed to add in an empty list.
+Output:
+    item X added; or
+    failed to add in an empty list;
+
+3. Then test on inserting item into a non-empty list which contains 1 or more items (insert between head and tail)
+Expecation: In group_test file, insert an item to an non-empty list between head pointer and tail pointer. If 
+insert succed, the program prints out item X is inserted into list and prints out current item, content of 
+head pointer and content of tail pointer. Otherwise the program prints out failed to insert item X.
+Output:
+    item X is inserted into list;
+    current item, content of head pointer and content of tail item; or 
+    failed to insert item X;
+
+4. Then test on inserting item to head of a list which contains 1 or more items
+Expecation: In group_test file, insert an item to an non-empty list at head positon. If insert succeed,
+the program prints out item X is inserted into list and prints out item X as head and current. Otherwise the program
+prints out failed to insert item X.
+Output:
+    item X is inserted into list;
+    current item, head item is X; or
+    fialed to insert item X;
+
+5. Then test on inserting item to tail of a list which contains 1 or more items
+Expecation: In group_test file, insert an item to an non-empty list at tail positon. If insert succeed,
+the progam prints out item X is inserted into list and prints out item X as tail and current. Otherwise the program
+prints out failed to insert item X.
+Output:
+    item X is inserted into list;
+    current item, tail item is X; or
+    failed to insert item X;
+
+
+We do same checking for all other operations.
