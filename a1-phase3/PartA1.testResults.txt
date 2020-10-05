@@ -1,3 +1,12 @@
+# Kun Niu
+# kun869
+
+
+
+# Boru sun, 
+# bos226, 
+# 11233036
+
 bos226@tux6:~/CMPT332/group37/a1-phase2> ./PartA1 1 -4 5000
 1the deadline time must be greater than 0sbos226@tux6:~/CMPT332/group37/a1-phase2> ./PartA1 1 4 -5000
 1the max integer must be possitive integersbos226@tux6:~/CMPT332/group37/a1-phase2> ./PartA1 -1 4 5000
