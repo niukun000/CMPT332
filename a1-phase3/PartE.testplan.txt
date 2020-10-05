@@ -1,0 +1,14 @@
+/*
+Kun Niu
+kun869
+11242427
+*/
+
+/*
+Boru sun, 
+bos226, 
+11233036
+*/
+
+For PartE testplan, we test if script can run cd, mkdir, cd .., use relative path and
+absolute path. Also we test if user can exit the script by type "exit" in command line
